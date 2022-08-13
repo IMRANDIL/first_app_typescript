@@ -4,8 +4,11 @@ import { CustomMap } from "./CustomMap";
 
 const user = new User();
 const company = new Company();
-new CustomMap('mapDiv').addUserMarker(user);
-new CustomMap('mapDiv').addCompanyMarker(company);
+const customMap = new CustomMap('mapDiv');
+
+
+customMap.addUserMarker(user);
+customMap.addCompanyMarker(company);
 
 
 
