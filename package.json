@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/IMRANDIL/first_app_typescript#readme",
   "dependencies": {
-    "@faker-js/faker": "^7.4.0"
+    "@faker-js/faker": "^7.4.0",
+    "dotenv": "^16.0.1"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
