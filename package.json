@@ -20,5 +20,8 @@
   "homepage": "https://github.com/IMRANDIL/first_app_typescript#readme",
   "dependencies": {
     "@faker-js/faker": "^7.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
