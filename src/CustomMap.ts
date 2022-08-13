@@ -6,7 +6,8 @@ interface Mappable{
     location: {
         lat: number;
         lng: number;
-    }
+    };
+    markerContent(): string;
 }
 
 
@@ -41,7 +42,7 @@ addMarker(mappable: Mappable): void {
 
     marker.addListener('click', () => {
         const infoWindow = new google.maps.InfoWindow({
-            content: mappable.location.lat + ',' + mappable.location.lng
+            content: mappable.markerContent()
         });
         infoWindow.open(this.googleMap, marker);
     }
